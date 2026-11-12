@@ -1,0 +1,771 @@
+{
+  "categories": [
+    {
+      "category_id": 1,
+      "category_name": "Gà Rán & Gà Quay",
+      "description": "Các phần gà rán giòn cay, truyền thống và gà quay đậm đà",
+      "id": 1
+    },
+    {
+      "category_id": 2,
+      "category_name": "Burger & Cơm & Mì Ý",
+      "description": "Món ăn chính no bụng phong phú khẩu vị",
+      "id": 2
+    },
+    {
+      "category_id": 3,
+      "category_name": "Món Ăn Nhẹ",
+      "description": "Khoai tây, gà viên, bánh tart và các món ăn kèm",
+      "id": 3
+    },
+    {
+      "category_id": 4,
+      "category_name": "Thức Uống & Tráng Miệng",
+      "description": "Nước giải khát, trà và kem tráng miệng",
+      "id": 4
+    },
+    {
+      "category_id": 5,
+      "category_name": "Combo 1 Người",
+      "description": "Phần ăn tiết kiệm trọn gói dành cho 1 người",
+      "id": 5
+    },
+    {
+      "category_id": 6,
+      "category_name": "Combo Nhóm & Xô Gà",
+      "description": "Các xô gà và combo lớn dành cho nhóm 2-4 người",
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "product_id": 1,
+      "category_id": 1,
+      "product_name": "1 Miếng Gà Rán (Truyền Thống / Giòn Cay)",
+      "price": 37000,
+      "description": "1 miếng gà rán giòn rụm với công thức 11 thảo mộc truyền thống hoặc vị cay đậm đà.",
+      "image_url": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
+      "is_active": false,
+      "id": 1,
+      "status": "Hết hàng"
+    },
+    {
+      "product_id": 2,
+      "category_id": 1,
+      "product_name": "2 Miếng Gà Rán",
+      "price": 74000,
+      "description": "2 miếng gà rán giòn tươi nóng hổi.",
+      "image_url": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
+      "is_active": true,
+      "id": 2
+    },
+    {
+      "product_id": 3,
+      "category_id": 1,
+      "product_name": "3 Miếng Gà Rán",
+      "price": 109000,
+      "description": "3 miếng gà rán giòn rụm thơm ngon.",
+      "image_url": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
+      "is_active": true,
+      "id": 3
+    },
+    {
+      "product_id": 4,
+      "category_id": 1,
+      "product_name": "6 Miếng Gà Rán",
+      "price": 205000,
+      "description": "Phần 6 miếng gà rán thích hợp cho 2-3 người.",
+      "image_url": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
+      "is_active": true,
+      "id": 4
+    },
+    {
+      "product_id": 5,
+      "category_id": 1,
+      "product_name": "1 Miếng Gà Xốt Tương Tỏi",
+      "price": 42000,
+      "description": "Gà rán phủ lớp xốt tương tỏi đậm đà, thơm nức.",
+      "image_url": "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec",
+      "is_active": true,
+      "id": 5
+    },
+    {
+      "product_id": 6,
+      "category_id": 1,
+      "product_name": "1 Miếng Gà Xốt Mắm Tỏi",
+      "price": 40000,
+      "description": "Gà rán giòn tan quyện xốt mắm tỏi đậm đà cay nhẹ.",
+      "image_url": "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec",
+      "is_active": true,
+      "id": 6
+    },
+    {
+      "product_id": 7,
+      "category_id": 1,
+      "product_name": "1 Đùi Gà Quay Flava",
+      "price": 75000,
+      "description": "Đùi gà góc tư quay mềm mọng nước phủ sốt Flava tiêu đen.",
+      "image_url": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b",
+      "is_active": true,
+      "id": 7
+    },
+    {
+      "product_id": 8,
+      "category_id": 1,
+      "product_name": "1 Phi-lê Gà Quay Flava",
+      "price": 39000,
+      "description": "Miếng thịt phi-lê gà quay giòn da thơm vị tiêu đen.",
+      "image_url": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b",
+      "is_active": true,
+      "id": 8
+    },
+    {
+      "product_id": 9,
+      "category_id": 1,
+      "product_name": "Gà Xiên Que (2 Que)",
+      "price": 40000,
+      "description": "Thịt gà tẩm ướp nướng xiên que tiện lợi.",
+      "image_url": "https://images.unsplash.com/photo-1532550907401-a500c9a57435",
+      "is_active": true,
+      "id": 9
+    },
+    {
+      "product_id": 10,
+      "category_id": 2,
+      "product_name": "Burger Gà Yo",
+      "price": 30000,
+      "description": "Burger gà chiên giòn kèm rau tươi và sốt mayonnaise.",
+      "image_url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+      "is_active": true,
+      "id": 10
+    },
+    {
+      "product_id": 11,
+      "category_id": 2,
+      "product_name": "Burger Tôm",
+      "price": 45000,
+      "description": "Burger nhân tôm chiên xù giòn rụm xốt Tartar.",
+      "image_url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+      "is_active": true,
+      "id": 11
+    },
+    {
+      "product_id": 12,
+      "category_id": 2,
+      "product_name": "Burger Zinger",
+      "price": 56000,
+      "description": "Burger phi-lê gà giòn cay kẹp xà lách tươi đậm vị.",
+      "image_url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+      "is_active": true,
+      "id": 12
+    },
+    {
+      "product_id": 13,
+      "category_id": 2,
+      "product_name": "Burger Phi-lê Gà Quay",
+      "price": 56000,
+      "description": "Burger phi-lê gà quay thơm vị tiêu đen đậm đà.",
+      "image_url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+      "is_active": true,
+      "id": 13
+    },
+    {
+      "product_id": 14,
+      "category_id": 2,
+      "product_name": "Cơm Gà Viên Nanban",
+      "price": 40000,
+      "description": "Cơm dẻo ăn kèm gà viên xốt Nanban ngọt dịu kiểu Nhật.",
+      "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+      "is_active": true,
+      "id": 14
+    },
+    {
+      "product_id": 15,
+      "category_id": 2,
+      "product_name": "Cơm Gà Rán",
+      "price": 49000,
+      "description": "Cơm trắng nóng hổi ăn kèm 1 miếng gà rán giòn rụm.",
+      "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+      "is_active": true,
+      "id": 15
+    },
+    {
+      "product_id": 16,
+      "category_id": 2,
+      "product_name": "Cơm Gà Xốt Tương Tỏi",
+      "price": 52000,
+      "description": "Cơm trắng kèm gà xốt tương tỏi thơm lừng.",
+      "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+      "is_active": true,
+      "id": 16
+    },
+    {
+      "product_id": 17,
+      "category_id": 2,
+      "product_name": "Cơm Phi-lê Gà Quay",
+      "price": 54000,
+      "description": "Cơm trắng ăn kèm phi-lê gà quay xốt Flava.",
+      "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+      "is_active": true,
+      "id": 17
+    },
+    {
+      "product_id": 18,
+      "category_id": 2,
+      "product_name": "Mì Ý Xúc Xích Gà",
+      "price": 38000,
+      "description": "Mì Ý xốt cà chua đậm đà kèm xúc xích gà thơm ngon.",
+      "image_url": "https://images.unsplash.com/photo-1551183053-bf91a1d81141",
+      "is_active": true,
+      "id": 18
+    },
+    {
+      "product_id": 19,
+      "category_id": 2,
+      "product_name": "Mì Ý Gà Viên (Popcorn)",
+      "price": 43000,
+      "description": "Mì Ý xốt cà chua ăn kèm các viên gà chiên giòn.",
+      "image_url": "https://images.unsplash.com/photo-1551183053-bf91a1d81141",
+      "is_active": true,
+      "id": 19
+    },
+    {
+      "product_id": 20,
+      "category_id": 2,
+      "product_name": "Mì Ý Gà Rán",
+      "price": 68000,
+      "description": "Mì Ý sốt cà chua kết hợp cùng 1 miếng gà rán lớn.",
+      "image_url": "https://images.unsplash.com/photo-1551183053-bf91a1d81141",
+      "is_active": true,
+      "id": 20
+    },
+    {
+      "product_id": 21,
+      "category_id": 3,
+      "product_name": "Khoai Tây Chiên (Vừa)",
+      "price": 24000,
+      "description": "Khoai tây cắt chiên vàng giòn rụm.",
+      "image_url": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877",
+      "is_active": true,
+      "id": 21
+    },
+    {
+      "product_id": 22,
+      "category_id": 3,
+      "product_name": "Khoai Tây Chiên (Lớn)",
+      "price": 38000,
+      "description": "Phần khoai tây chiên giòn size lớn.",
+      "image_url": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877",
+      "is_active": true,
+      "id": 22
+    },
+    {
+      "product_id": 23,
+      "category_id": 3,
+      "product_name": "Khoai Lắc Phô Mai (L)",
+      "price": 32000,
+      "description": "Khoai tây chiên lắc cùng bột phô Mai mặn ngọt béo ngậy.",
+      "image_url": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877",
+      "is_active": true,
+      "id": 23
+    },
+    {
+      "product_id": 24,
+      "category_id": 3,
+      "product_name": "Khoai Tây Nghiền (Vừa)",
+      "price": 24000,
+      "description": "Khoai tây nghiền mịn kèm sốt gravy đậm đà.",
+      "image_url": "https://images.unsplash.com/photo-1514944288352-fffac99f0bdf",
+      "is_active": true,
+      "id": 24
+    },
+    {
+      "product_id": 25,
+      "category_id": 3,
+      "product_name": "Bắp Cải Trộn / Coleslaw (Vừa)",
+      "price": 24000,
+      "description": "Bắp cải và cà rốt thái sợi trộn sốt mayonnaise tươi mát.",
+      "image_url": "https://images.unsplash.com/photo-1625944230945-1b7dd3b949ab",
+      "is_active": true,
+      "id": 25
+    },
+    {
+      "product_id": 26,
+      "category_id": 3,
+      "product_name": "Gà Viên Popcorn (Vừa)",
+      "price": 45000,
+      "description": "Những viên gà giòn nhỏ vừa ăn, cay nhẹ.",
+      "image_url": "https://images.unsplash.com/photo-1562967914-608f82629710",
+      "is_active": true,
+      "id": 26
+    },
+    {
+      "product_id": 27,
+      "category_id": 3,
+      "product_name": "Gà Viên Popcorn (Lớn)",
+      "price": 64000,
+      "description": "Hộp gà viên Popcorn size lớn đầy đặn.",
+      "image_url": "https://images.unsplash.com/photo-1562967914-608f82629710",
+      "is_active": true,
+      "id": 27
+    },
+    {
+      "product_id": 28,
+      "category_id": 3,
+      "product_name": "Gà Miếng Tenders (3 Miếng)",
+      "price": 41000,
+      "description": "Gà phi-lê không xương chiên giòn dễ ăn.",
+      "image_url": "https://images.unsplash.com/photo-1562967914-608f82629710",
+      "is_active": true,
+      "id": 28
+    },
+    {
+      "product_id": 29,
+      "category_id": 3,
+      "product_name": "Gà Miếng Tenders (5 Miếng)",
+      "price": 66000,
+      "description": "5 miếng gà phi-lê chiên giòn không xương.",
+      "image_url": "https://images.unsplash.com/photo-1562967914-608f82629710",
+      "is_active": true,
+      "id": 29
+    },
+    {
+      "product_id": 30,
+      "category_id": 3,
+      "product_name": "Thanh Cá Chiên (3 Miếng)",
+      "price": 35000,
+      "description": "Cá phi-lê tẩm bột chiên xù giòn tan.",
+      "image_url": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb",
+      "is_active": true,
+      "id": 30
+    },
+    {
+      "product_id": 31,
+      "category_id": 3,
+      "product_name": "Súp Rong Biển",
+      "price": 17000,
+      "description": "Súp rong biển thanh nhẹ nóng hổi.",
+      "image_url": "https://images.unsplash.com/photo-1547592166-23ac45744acd",
+      "is_active": true,
+      "id": 31
+    },
+    {
+      "product_id": 32,
+      "category_id": 4,
+      "product_name": "Pepsi (Ly Vừa)",
+      "price": 17000,
+      "description": "Nước giải khát Pepsi mát lạnh ly vừa.",
+      "image_url": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97",
+      "is_active": true,
+      "id": 32
+    },
+    {
+      "product_id": 33,
+      "category_id": 4,
+      "product_name": "Pepsi (Ly Lớn)",
+      "price": 20000,
+      "description": "Nước giải khát Pepsi mát lạnh ly lớn.",
+      "image_url": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97",
+      "is_active": true,
+      "id": 33
+    },
+    {
+      "product_id": 34,
+      "category_id": 4,
+      "product_name": "7Up (Ly Vừa)",
+      "price": 17000,
+      "description": "Nước ngọt hương chanh 7Up mát lạnh.",
+      "image_url": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97",
+      "is_active": true,
+      "id": 34
+    },
+    {
+      "product_id": 35,
+      "category_id": 4,
+      "product_name": "Trà Lipton (Ly Lớn)",
+      "price": 22000,
+      "description": "Trà Lipton chanh giải nhiệt sảng khoái.",
+      "image_url": "https://images.unsplash.com/photo-1556679343-c7306c1976bc",
+      "is_active": true,
+      "id": 35
+    },
+    {
+      "product_id": 36,
+      "category_id": 4,
+      "product_name": "Bánh Tart Trứng (1 Bánh)",
+      "price": 18000,
+      "description": "Bánh tart trứng nướng giòn vỏ, nhân kem trứng béo ngậy.",
+      "image_url": "https://images.unsplash.com/photo-1587314168485-3236d6710814",
+      "is_active": true,
+      "id": 36
+    },
+    {
+      "product_id": 37,
+      "category_id": 4,
+      "product_name": "Bánh Tart Trứng (Hộp 4 Bánh)",
+      "price": 58000,
+      "description": "Hộp 4 bánh tart trứng nướng thơm lừng.",
+      "image_url": "https://images.unsplash.com/photo-1587314168485-3236d6710814",
+      "is_active": true,
+      "id": 37
+    },
+    {
+      "product_id": 38,
+      "category_id": 4,
+      "product_name": "Bánh Phô Mai Viên Pumcheese (3 Viên)",
+      "price": 42000,
+      "description": "Bánh phô mai nướng thơm dẻo kéo sợi.",
+      "image_url": "https://images.unsplash.com/photo-1541529086526-db283c563270",
+      "is_active": true,
+      "id": 38
+    },
+    {
+      "product_id": 39,
+      "category_id": 5,
+      "product_name": "Combo Cơm Gà Nanban Solo",
+      "price": 46000,
+      "description": "1 Cơm gà Nanban + 1 Ly Pepsi (Tiêu chuẩn)",
+      "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+      "is_active": true,
+      "id": 39
+    },
+    {
+      "product_id": 40,
+      "category_id": 5,
+      "product_name": "Combo Cơm Gà Rán Solo",
+      "price": 56000,
+      "description": "1 Cơm Gà Rán + 1 Ly Pepsi (Tiêu chuẩn)",
+      "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+      "is_active": true,
+      "id": 40
+    },
+    {
+      "product_id": 41,
+      "category_id": 5,
+      "product_name": "Combo Burger Gà Yo",
+      "price": 56000,
+      "description": "1 Burger Gà Yo + 1 Khoai tây chiên (Vừa) + 1 Ly Pepsi",
+      "image_url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+      "is_active": true,
+      "id": 41
+    },
+    {
+      "product_id": 42,
+      "category_id": 5,
+      "product_name": "Combo 1 Miếng Gà",
+      "price": 59000,
+      "description": "1 Miếng Gà Rán + 1 Khoai tây chiên (Vừa) + 1 Ly Pepsi",
+      "image_url": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
+      "is_active": true,
+      "id": 42
+    },
+    {
+      "product_id": 43,
+      "category_id": 5,
+      "product_name": "Combo Burger Zinger",
+      "price": 79000,
+      "description": "1 Burger Zinger + 1 Khoai tây chiên (Vừa) + 1 Ly Pepsi",
+      "image_url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+      "is_active": true,
+      "id": 43
+    },
+    {
+      "product_id": 44,
+      "category_id": 5,
+      "product_name": "Combo 2 Miếng Gà",
+      "price": 91000,
+      "description": "2 Miếng Gà Rán + 1 Khoai tây chiên (Vừa) + 1 Ly Pepsi",
+      "image_url": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
+      "is_active": true,
+      "id": 44
+    },
+    {
+      "product_id": 45,
+      "category_id": 5,
+      "product_name": "Combo Một Mình Chill",
+      "price": 91000,
+      "description": "1 Miếng Gà Rán + 1 Mì Ý Xúc Xích + 1 Khoai tây chiên + 1 Pepsi",
+      "image_url": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
+      "is_active": true,
+      "id": 45
+    },
+    {
+      "product_id": 46,
+      "category_id": 6,
+      "product_name": "Xô Zui Zẻ (12 Gà Tenders)",
+      "price": 159000,
+      "description": "Xô gồm 12 miếng gà phi-lê Tenders chiên giòn.",
+      "image_url": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
+      "is_active": true,
+      "id": 46
+    },
+    {
+      "product_id": 47,
+      "category_id": 6,
+      "product_name": "Xô Zòn Zã (5 Miếng Gà)",
+      "price": 179000,
+      "description": "Xô tiết kiệm gồm 5 miếng gà rán giòn rụm.",
+      "image_url": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
+      "is_active": true,
+      "id": 47
+    },
+    {
+      "product_id": 48,
+      "category_id": 6,
+      "product_name": "Xô Hợp Cạ",
+      "price": 189000,
+      "description": "5 Miếng Gà Rán + 1 Khoai tây chiên (Vừa) + 2 Ly Pepsi",
+      "image_url": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
+      "is_active": true,
+      "id": 48
+    },
+    {
+      "product_id": 49,
+      "category_id": 6,
+      "product_name": "Combo Cùng Vui",
+      "price": 199000,
+      "description": "6 Miếng Gà Rán + Tặng kèm 3 lon Pepsi",
+      "image_url": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
+      "is_active": true,
+      "id": 49
+    },
+    {
+      "product_id": 50,
+      "category_id": 6,
+      "product_name": "Xô Cùng Tiệc",
+      "price": 269000,
+      "description": "9 Miếng Gà Rán + 3 Ly Pepsi (Vừa)",
+      "image_url": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
+      "is_active": true,
+      "id": 50
+    },
+    {
+      "product_id": 51,
+      "category_id": 6,
+      "product_name": "Combo Cùng Dzô",
+      "price": 369000,
+      "description": "12 Miếng Gà Rán + Tặng kèm 4 Ly Pepsi (Đại)",
+      "image_url": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
+      "is_active": true,
+      "id": 51
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "1",
+      "role": "admin",
+      "fullName": "Quản Trị Viên"
+    },
+    {
+      "username": "viet",
+      "password": "1",
+      "fullName": "Nguyễn Quốc Việt",
+      "role": "user",
+      "id": 3
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "orderCode": "OD1001",
+      "customerName": "Nguyễn Văn A",
+      "phone": "0912345678",
+      "address": "Khu Công Nghệ Cao Hòa Lạc, Thạch Thất, Hà Nội (ĐH FPT)",
+      "paymentMethod": "COD",
+      "note": "Giao giờ trưa giúp mình nhé, nhiều tương ớt",
+      "items": [
+        {
+          "product_id": 1,
+          "product_name": "1 Miếng Gà Rán (Truyền Thống / Giòn Cay)",
+          "price": 37000,
+          "quantity": 2,
+          "image_url": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58"
+        },
+        {
+          "product_id": 21,
+          "product_name": "Khoai Tây Chiên (Vừa)",
+          "price": 24000,
+          "quantity": 1,
+          "image_url": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877"
+        },
+        {
+          "product_id": 32,
+          "product_name": "Pepsi (Ly Vừa)",
+          "price": 17000,
+          "quantity": 2,
+          "image_url": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97"
+        }
+      ],
+      "subtotal": 132000,
+      "discount": 0,
+      "shippingFee": 15000,
+      "total": 147000,
+      "status": "Đang giao",
+      "createdAt": "2026-11-10T11:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "orderCode": "OD1002",
+      "customerName": "Trần Thị B",
+      "phone": "0987654321",
+      "address": "Ký túc xá Dom E, ĐH FPT Hà Nội",
+      "paymentMethod": "Banking",
+      "note": "Gọi trước khi tới cổng KTX",
+      "items": [
+        {
+          "product_id": 48,
+          "product_name": "Xô Hợp Cạ",
+          "price": 189000,
+          "quantity": 1,
+          "image_url": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58"
+        }
+      ],
+      "subtotal": 189000,
+      "discount": 18900,
+      "shippingFee": 15000,
+      "total": 185100,
+      "status": "Đã hoàn thành",
+      "createdAt": "2026-11-10T10:15:00.000Z"
+    },
+    {
+      "orderCode": "CB339134",
+      "userId": 2,
+      "customerName": "Nguyễn Văn A",
+      "phone": "0355291005",
+      "address": "Khu Công Nghệ Cao Hòa Lạc, Thạch Thất, Hà Nội",
+      "note": "",
+      "paymentMethod": "COD",
+      "items": [
+        {
+          "product_id": 1,
+          "product_name": "1 Miếng Gà Rán (Truyền Thống / Giòn Cay)",
+          "price": 37000,
+          "quantity": 1,
+          "image_url": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58"
+        },
+        {
+          "product_id": 2,
+          "product_name": "2 Miếng Gà Rán",
+          "price": 74000,
+          "quantity": 1,
+          "image_url": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58"
+        }
+      ],
+      "subtotal": 111000,
+      "discount": 0,
+      "voucherCode": null,
+      "shippingFee": 15000,
+      "total": 126000,
+      "status": "Chờ xử lý",
+      "createdAt": "2026-11-11T07:05:59.641Z",
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "customerName": "Nguyễn Văn A",
+      "phone": "11",
+      "address": "cvb",
+      "items": [
+        {
+          "id": 1,
+          "name": "1 Miếng Gà Rán (Truyền Thống / Giòn Cay)",
+          "price": 37000,
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 37000,
+      "shippingFee": 15000,
+      "total": 52000,
+      "status": "Đang giao",
+      "createdAt": "2026-11-11T16:16:03.105Z",
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "customerName": "Nguyễn Văn A",
+      "phone": "1",
+      "address": "1",
+      "items": [
+        {
+          "id": 2,
+          "name": "2 Miếng Gà Rán",
+          "price": 74000,
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 74000,
+      "shippingFee": 15000,
+      "total": 89000,
+      "status": "Chờ xử lý",
+      "createdAt": "2026-11-11T16:17:39.278Z",
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "customerName": "Nguyễn Văn A",
+      "phone": "0355291005",
+      "address": "Thôn 3, Hoà Lạc, Hà Nội",
+      "items": [
+        {
+          "id": 1,
+          "name": "1 Miếng Gà Rán (Truyền Thống / Giòn Cay)",
+          "price": 37000,
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 37000,
+      "shippingFee": 15000,
+      "total": 52000,
+      "status": "Đã hủy",
+      "createdAt": "2026-11-11T16:24:27.404Z",
+      "id": 6
+    },
+    {
+      "userId": 3,
+      "customerName": "Nguyễn Quốc Việt",
+      "phone": "0355291005",
+      "address": "Thôn 3, HL, HN",
+      "items": [
+        {
+          "id": 1,
+          "name": "1 Miếng Gà Rán (Truyền Thống / Giòn Cay)",
+          "price": 37000,
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 37000,
+      "shippingFee": 15000,
+      "total": 52000,
+      "status": "Chờ xử lý",
+      "createdAt": "2026-11-11T16:32:14.260Z",
+      "id": 7
+    },
+    {
+      "userId": 3,
+      "customerName": "Nguyễn Quốc Việt",
+      "phone": "1",
+      "address": "3, hl, hn",
+      "items": [
+        {
+          "id": 1,
+          "name": "1 Miếng Gà Rán (Truyền Thống / Giòn Cay)",
+          "price": 37000,
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 37000,
+      "shippingFee": 15000,
+      "total": 52000,
+      "status": "Chờ xử lý",
+      "createdAt": "2026-11-11T16:55:44.812Z",
+      "id": 8
+    }
+  ]
+}
