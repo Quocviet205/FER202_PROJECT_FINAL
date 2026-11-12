@@ -45,8 +45,9 @@
       "price": 37000,
       "description": "1 miếng gà rán giòn rụm với công thức 11 thảo mộc truyền thống hoặc vị cay đậm đà.",
       "image_url": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
-      "is_active": true,
-      "id": 1
+      "is_active": false,
+      "id": 1,
+      "status": "Hết hàng"
     },
     {
       "product_id": 2,
@@ -553,16 +554,16 @@
     {
       "id": 1,
       "username": "admin",
-      "password": "123",
+      "password": "1",
       "role": "admin",
       "fullName": "Quản Trị Viên"
     },
     {
-      "id": 2,
-      "username": "user",
-      "password": "123",
-      "role": "customer",
-      "fullName": "Nguyễn Văn A"
+      "username": "viet",
+      "password": "1",
+      "fullName": "Nguyễn Quốc Việt",
+      "role": "user",
+      "id": 3
     }
   ],
   "orders": [
@@ -627,6 +628,144 @@
       "total": 185100,
       "status": "Đã hoàn thành",
       "createdAt": "2026-11-10T10:15:00.000Z"
+    },
+    {
+      "orderCode": "CB339134",
+      "userId": 2,
+      "customerName": "Nguyễn Văn A",
+      "phone": "0355291005",
+      "address": "Khu Công Nghệ Cao Hòa Lạc, Thạch Thất, Hà Nội",
+      "note": "",
+      "paymentMethod": "COD",
+      "items": [
+        {
+          "product_id": 1,
+          "product_name": "1 Miếng Gà Rán (Truyền Thống / Giòn Cay)",
+          "price": 37000,
+          "quantity": 1,
+          "image_url": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58"
+        },
+        {
+          "product_id": 2,
+          "product_name": "2 Miếng Gà Rán",
+          "price": 74000,
+          "quantity": 1,
+          "image_url": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58"
+        }
+      ],
+      "subtotal": 111000,
+      "discount": 0,
+      "voucherCode": null,
+      "shippingFee": 15000,
+      "total": 126000,
+      "status": "Chờ xử lý",
+      "createdAt": "2026-11-11T07:05:59.641Z",
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "customerName": "Nguyễn Văn A",
+      "phone": "11",
+      "address": "cvb",
+      "items": [
+        {
+          "id": 1,
+          "name": "1 Miếng Gà Rán (Truyền Thống / Giòn Cay)",
+          "price": 37000,
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 37000,
+      "shippingFee": 15000,
+      "total": 52000,
+      "status": "Đang giao",
+      "createdAt": "2026-11-11T16:16:03.105Z",
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "customerName": "Nguyễn Văn A",
+      "phone": "1",
+      "address": "1",
+      "items": [
+        {
+          "id": 2,
+          "name": "2 Miếng Gà Rán",
+          "price": 74000,
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 74000,
+      "shippingFee": 15000,
+      "total": 89000,
+      "status": "Chờ xử lý",
+      "createdAt": "2026-11-11T16:17:39.278Z",
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "customerName": "Nguyễn Văn A",
+      "phone": "0355291005",
+      "address": "Thôn 3, Hoà Lạc, Hà Nội",
+      "items": [
+        {
+          "id": 1,
+          "name": "1 Miếng Gà Rán (Truyền Thống / Giòn Cay)",
+          "price": 37000,
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 37000,
+      "shippingFee": 15000,
+      "total": 52000,
+      "status": "Đã hủy",
+      "createdAt": "2026-11-11T16:24:27.404Z",
+      "id": 6
+    },
+    {
+      "userId": 3,
+      "customerName": "Nguyễn Quốc Việt",
+      "phone": "0355291005",
+      "address": "Thôn 3, HL, HN",
+      "items": [
+        {
+          "id": 1,
+          "name": "1 Miếng Gà Rán (Truyền Thống / Giòn Cay)",
+          "price": 37000,
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 37000,
+      "shippingFee": 15000,
+      "total": 52000,
+      "status": "Chờ xử lý",
+      "createdAt": "2026-11-11T16:32:14.260Z",
+      "id": 7
+    },
+    {
+      "userId": 3,
+      "customerName": "Nguyễn Quốc Việt",
+      "phone": "1",
+      "address": "3, hl, hn",
+      "items": [
+        {
+          "id": 1,
+          "name": "1 Miếng Gà Rán (Truyền Thống / Giòn Cay)",
+          "price": 37000,
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 37000,
+      "shippingFee": 15000,
+      "total": 52000,
+      "status": "Chờ xử lý",
+      "createdAt": "2026-11-11T16:55:44.812Z",
+      "id": 8
     }
   ]
 }
